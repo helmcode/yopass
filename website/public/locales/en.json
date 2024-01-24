@@ -59,7 +59,7 @@
     "dialogCancel": "Cancel"
   },
   "attribution": {
-    "createdBy": "Created by",
+    "createdBy": "Powered by",
     "translatedBy": "Translated by",
     "translatorName": "",
     "translatorLink": ""
@@ -72,19 +72,19 @@
   },
   "features": {
     "title": "Share Secrets Securely With Ease",
-    "subtitle": "Yopass is created to reduce the amount of clear text passwords stored in email and chat conversations by encrypting and generating a short lived link which can only be viewed once.",
+    "subtitle": "Helmcode Yopass is created to reduce the amount of clear text passwords stored in email and chat conversations by encrypting and generating a short lived link which can only be viewed once.",
     "featureEndToEndTitle": "End-to-end Encryption",
-    "featureEndToEndText": "Encryption and decryption are being made locally in the browser. The key is never stored with yopass.",
+    "featureEndToEndText": "Encryption and decryption are being made locally in the browser. The key is never stored with Helmcode Yopass.",
     "featureSelfDestructionTitle": "Self destruction",
     "featureSelfDestructionText": "Encrypted messages have a fixed lifetime and will be deleted automatically after expiration.",
     "featureOneTimeTitle": "One-time downloads",
     "featureOneTimeText": "The encrypted message can only be downloaded once which reduces the risk of someone peeking at your secrets.",
     "featureSimpleSharingTitle": "Simple Sharing",
-    "featureSimpleSharingText": "Yopass generates a unique one click link for the encrypted file or message. The decryption password can alternatively be sent separately.",
+    "featureSimpleSharingText": "Helmcode Yopass generates a unique one click link for the encrypted file or message. The decryption password can alternatively be sent separately.",
     "featureNoAccountsTitle": "No accounts needed",
     "featureNoAccountsText": "Sharing should be quick and easy; No additional information except the encrypted secret is stored in the database.",
     "featureOpenSourceTitle": "Open Source Software",
-    "featureOpenSourceText": "Yopass encryption mechanism are built on open source software meaning full transparency with the possibility to audit and submit features."
+    "featureOpenSourceText": "Helmcode Yopass encryption mechanism are built on open source software meaning full transparency with the possibility to audit and submit features."
   },
   "header": {
     "buttonHome": "Home",

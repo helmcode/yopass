@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  memcached:
+    image: memcached
+    restart: always
+    expose:
+      - "11211"
+
+  yopass:
+    build: .
+    restart: always
+    ports:
+      - "127.0.0.1:3003:3003"
+    command: "--memcached=memcached:11211 --port 3003"
+    depends_on:
+      - memcached
