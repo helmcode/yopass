@@ -13,20 +13,6 @@ spec:
         app.kubernetes.io/name: yopass
     spec:
       containers:
-        - name: yopass
-          image: jhaals/yopass
-          args:
-            - "--memcached=localhost:11211"
-          ports:
-            - name: http
-              containerPort: 1337
-          resources:
-            limits:
-              cpu: 100m
-              memory: 50Mi
-            requests:
-              cpu: 100m
-              memory: 50Mi
         - name: yopass-memcached
           image: memcached
           resources:
@@ -41,6 +27,21 @@ spec:
           ports:
             - name: memcached
               containerPort: 11211
+        - name: yopass
+          image: barckcode/yopass:1.1
+          args:
+            - "--memcached=localhost:11211"
+          ports:
+            - name: http
+              containerPort: 1337
+          resources:
+            limits:
+              cpu: 500m
+              memory: 100Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
+
 ---
 kind: Service
 apiVersion: v1
