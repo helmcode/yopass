@@ -11,7 +11,7 @@ services:
     image: barckcode/yopass:1.1
     restart: always
     ports:
-      - "127.0.0.1:3003:3003"
+      - "0.0.0.0:3003:3003"
     command: "--memcached=memcached:11211 --port 3003"
     depends_on:
       - memcached
