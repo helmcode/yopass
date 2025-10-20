@@ -12,4 +12,4 @@ RUN yarn install --network-timeout 600000 && yarn build
 FROM gcr.io/distroless/base
 COPY --from=app /yopass/yopass /yopass/yopass-server /
 COPY --from=website /website/build /public
-ENTRYPOINT ["/yopass-server --memcached yopass-memcached-4de3752c.helmcode.com:32644 --port 3003"]
+ENTRYPOINT ["/yopass-server", "--memcached", "yopass-memcached-4de3752c.helmcode.com:32644", "--port", "3003"]
