@@ -1,6 +1,6 @@
 {
   "create": {
-    "title": "Encrypt message",
+    "title": "Encrypt message TEST",
     "inputSecretLabel": "Secret message",
     "inputSecretPlaceholder": "Message to encrypt locally in your browser",
     "buttonEncrypt": "Encrypt Message",
